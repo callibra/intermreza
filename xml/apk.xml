@@ -8,39 +8,6 @@ adult="No"
 description="RobinHoodTv apps"
 
 
-
-
-http://kodibalkan.com/repo/Apk/RobinHoodIPTVPlayer.apk
-
-name="Jocker"
-section="yes"
-url="http://kodibalkan.com/tojelako/Apk/jokertv-release.apk"
-icon="http://kodibalkan.com/tojelako/Apk/Jocker.jpg"
-fanart=http://kodibalkan.com/tojelako/Apk/Jocker.jpg"
-adult="No"
-description="Jocker apps"
-
-
-
-
-
-
-name="Ukodi1 Media Centre "
-section="no"
-url="http://uk1.site/NewWiz/apks/UKODI1_MC-17.6.1760511-armeabi-v7a.apk"
-icon="http://uk1.site/NewWiz/artwork/UKMC.png" 
-fanart="https://"
-adult="No"
-description="UKODI 17.6 KRYPTON FORK FOR ANDROID APK"
-
-name="Kodi 17.6 Media Centre  "
-section="no"
-url="http://uk1.site/NewWiz/apks/kodi-17.6-Krypton-armeabi-v7a%20(1).apk"
-icon="http://uk1.site/NewWiz/artwork/thumbnail-light.png" 
-fanart="http://"
-adult="No"
-description="KODI 17.6 MEDIA CENTER APK"
-
 name="SPMC Media Centre "
 section="no"
 url="http://uk1.site/NewWiz/apks/SPMC-16.7.4-spmc-94d913d-armeabi-v7a.apk"
@@ -48,6 +15,7 @@ icon="http://uk1.site/NewWiz/artwork/spmc.jpg"
 fanart="https://"
 adult="No"
 description="SPMC 17.6.4 APK"
+
 
 name="TVZION v2.1.BETA.2.2[Ad Free].apk "
 section="no"
@@ -57,6 +25,7 @@ fanart="https://"
 adult="No"
 description="MOVIES AND TV SHOWS FOR ANDROID APK"
 
+
 name="Wullies Community APK's KODI 18 ALPHA"
 section="no"
 url="http://miniaturelife67.co.uk/_repo/apk/apkfiles/_COMM%20BUILDS%20KODI%2018.apk"
@@ -65,21 +34,6 @@ fanart="https://miniaturelife67.co.uk/_repo/apk/apkfiles/combuild.png"
 adult="No"
 description="Kodi APK 18"
 
-name="Wullies Community APK's KODI 17.6"
-section="no"
-url="http://miniaturelife67.co.uk/_repo/apk/apkfiles/_COMM%20BUILDS%20KODI%2017.6.apk"
-icon="http://miniaturelife67.co.uk/_repo/apk/apkfiles/combuild.png"
-fanart="https://miniaturelife67.co.uk/_repo/apk/apkfiles/combuild.png"
-adult="No"
-description="Kodi APK 17.6"
-
-name="Wullies Community APK's SPMC 17.6"
-section="no"
-url="http://miniaturelife67.co.uk/_repo/apk/apkfiles/_COMM%20BUILDS%20SPMC%2017.6.apk"
-icon="http://miniaturelife67.co.uk/_repo/apk/apkfiles/combuild.png"
-fanart="https://miniaturelife67.co.uk/_repo/apk/apkfiles/combuild.png"
-adult="No"
-description="SPMC APK 17.6"
 
 name="Wullies Community APK's MYGICA 4.4"
 section="no"
@@ -89,13 +43,6 @@ fanart="https://miniaturelife67.co.uk/_repo/apk/apkfiles/combuild.png"
 adult="No"
 description="MYGICA APK 4.4"
 
-ame="TNT Hosting Apks"
-section="yes"
-url="http://streamdigital.org/mb/xtxt/tnt.txt"
-icon="http://streamdigital.org/mb/apkimgs/tnticon.png"
-fanart="http://streamdigital.org/mb/apkimgs/tntfan.jpg"
-adult="no"
-description="TNT Apks"
 
 name="Media Centers"
 section="yes"
@@ -105,6 +52,7 @@ fanart="http://streamdigital.org/mb/apkimgs/mcfan.jpg"
 adult="No"
 description="Kodi Forks"
 
+
 name="Movie/TV Shows APKs"
 section="yes"
 url="http://streamdigital.org/mb/xtxt/mtv.txt"
@@ -112,6 +60,7 @@ icon="http://streamdigital.org/mb/apkimgs/movieicon.jpg"
 fanart="http://streamdigital.org/mb/apkimgs/moviefan.jpg"
 adult="No"
 description="Best Movies and TV Shows APKs"
+
 
 name="Live TV APKs"
 section="yes"
@@ -121,6 +70,7 @@ fanart="http://streamdigital.org/mb/apkimgs/livefan.jpg"
 adult="No"
 description="Collection of some great Live TV apps"
 
+
 name="Tools/Essentials"
 section="yes"
 url="http://streamdigital.org/mb/xtxt/tools.txt"
@@ -128,6 +78,7 @@ icon="http://streamdigital.org/mb/apkimgs/toolsicon.png"
 fanart="http://streamdigital.org/mb/apkimgs/toolsfan.jpg"
 adult="No"
 description="Useful Programs"
+
 
 name="Music and Players"
 section="yes"

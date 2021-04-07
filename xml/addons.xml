@@ -1,8 +1,5 @@
 
-"....................."
-
-
-name="[B][COLOR gold].........ADDONS.........[/COLOR][/B]"
+name="[B][COLOR lime]-----ADDONS-----[/COLOR][/B]"
 version="0.0"
 url="http://"
 gui="http://"
@@ -13,6 +10,7 @@ fanart="http://"
 preview="http://"
 adult="no"
 description="Pavoo Tv Recommended Addons. Please select from the list below..."
+
 
 name="Nevena"
 plugin="plugin.video.Nevena"
@@ -26,9 +24,6 @@ adult="No"
 description="Nevena Addon  (Tojelako)"
 
 
-
-
-
 name="Robin Hood TV"
 plugin="plugin.video.RobinHoodTV"
 url="http://kodibalkan.com/repo/programi/plugin.video.RobinHoodTv/plugin.video.RobinHoodTv-1.1.6.zip"
@@ -40,22 +35,8 @@ fanart="http://"
 adult="No"
 description="Robin Hood TV Addon"
 
-	
 
-
-name="Elementum"
-plugin="plugin.video.elementum"
-url="http://kodibalkan.com/tojelako/Programi/plugin.video.elementum/plugin.video.elementum-0.1.35.zip"
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="http://kodibalkan.com/tojelako/Programi/plugin.video.elementum/elementiu.jpg"
-fanart="http://kodibalkan.com/tojelako/Programi/plugin.video.elementum/elementiu.jpg"
-adult="No"
-description="Elementum je Torrent addon i nepreporucuje se u nekim zemljama koriscenje bez VPN-a"
-
-
-name="[B][COLOR gold].........WIZARDS.........[/COLOR][/B]"
+name="[B][COLOR red]-----WIZARDS-----[/COLOR][/B]"
 version="0.0"
 url="http://"
 gui="http://"
@@ -66,6 +47,7 @@ fanart="http://"
 preview="http://"
 adult="no"
 description="Pavoo Tv Recommended Wizards. Please select from the list below..."
+
 
 name="Ezzer-Mac Wizard"
 plugin="plugin.program.EzzerMacs-1.1.2"
@@ -78,6 +60,7 @@ fanart="http://brockie.xyz/pics/fanart.jpg"
 adult="No"
 description="The EzzerMacs wizard has to be one of the finest collection of builds available today. The build wizard team members can all be relied upon to produce well maintained quality builds."
 
+
 name="Vodka Wizard"
 plugin="plugin.program.vodkawizard"
 url="http://uk1.site/NewWiz/zips/plugin.program.vodkawizard.zip"
@@ -88,6 +71,7 @@ icon="http://brockie.xyz/pics/icon6.png"
 fanart="http://"
 adult="No"
 description="The Vodka Wizard by @S7ubbster. Collection of builds from @S7ubbster, Ezzerman and Unhinged"
+
 
 name="Breezz Wizard"
 plugin="plugin.program.breezz_wizard"
@@ -100,9 +84,8 @@ fanart="http://"
 adult="No"
 description="Breezz Wizard"
 
-"....................."
 
-name="[B][COLOR gold].........REPOS.........[/COLOR][/B]"
+name="[B][COLOR blue]-----REPOS-----[/COLOR][/B]"
 version="0.0"
 url="http://"
 gui="http://"
@@ -113,6 +96,7 @@ fanart="http://"
 preview="http://"
 adult="no"
 description="Pavoo Recommended Repos. Please select from the list below..."
+
 
 name="EzzerMacs Repo"
 plugin="repository.EzzerMacsWizard"
@@ -125,6 +109,7 @@ fanart="http://"
 adult="no"
 description="EzzerMacs Repo"
 
+
 name="TeamDNA Repo"
 plugin="repository.teamdna"
 url="https://teamdna.pw/Install/repository.teamdna-1.0.4.zip"
@@ -136,6 +121,7 @@ fanart="http://ukodi1.com/NewWiz/artwork/dna.jpg"
 adult="no"
 description="TeamDNA Repo"
 
+
 name="Jen Repo"
 plugin="repository.jenrepo"
 url="http://jenrepo.tk/repo/repository.jenrepo-1.0.0.zip"
@@ -146,75 +132,3 @@ icon="http://uk1.site/NewWiz/artwork/jen.png"
 fanart="http://"
 adult="no"
 description="Jen Repo"
-
-name="Universal Scrapers Repo"
-plugin="repository.universalscrapers"
-url="http://uk1.site/NewWiz/zips/repository.universalscrapers-1.0.0.zip"
-repository=""
-repositoryxml="http://"
-repositoryurl="http://"
-icon="http://uk1.site/NewWiz/artwork/uscrapers.png"
-fanart="http://"
-adult="no"
-description="Universal Scrapers Repo"
-
-
-"....................."
-
-name="[B][COLOR gold].........INFO.........[/COLOR][/B]"
-version="0.0"
-url="http://"
-gui="http://"
-kodi="17.6"
-theme="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-preview="http://"
-adult="no"
-description=""
-
-name="[B][COLOR lime]Tojelako[/COLOR][/B]"
-plugin="plugin.program.batwiz"
-url=""
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-adult="No"
-description=""
-
-name="[B][COLOR lime]Tojelako[/COLOR][/B]"
-plugin="plugin.program.batwiz"
-url=""
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-adult="No"
-description=""
-
-name="[B][COLOR lime]Tojelako[/COLOR][/B]"
-plugin="plugin.program.batwiz"
-url=""
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-adult="No"
-description=""
-
-name="[B][COLOR lime]Tojelako[/COLOR][/B]"
-plugin="plugin.program.batwiz"
-url=""
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-adult="No"
-description=""
-
-"....................."
