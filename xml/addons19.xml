@@ -11,7 +11,6 @@ fanart="http://"
 adult="No"
 description="Nevena Addon  (Tojelako)"
 
-
 name="Robin Hood TV"
 plugin="plugin.video.RobinHoodTV"
 url="http://kodibalkan.com/repo/programi/plugin.video.RobinHoodTv/plugin.video.RobinHoodTv-1.1.6.zip"
@@ -22,7 +21,6 @@ icon="http://kodibalkan.com/tojelako/Programi/plugin.video.RobinHoodTv/icon.png"
 fanart="http://"
 adult="No"
 description="Robin Hood TV Addon"
-
 
 name="[B][COLOR red]-----WIZARDS-----[/COLOR][/B]"
 name="Ezzer-Mac Wizard"
@@ -36,7 +34,6 @@ fanart="http://brockie.xyz/pics/fanart.jpg"
 adult="No"
 description="The EzzerMacs wizard has to be one of the finest collection of builds available today. The build wizard team members can all be relied upon to produce well maintained quality builds."
 
-
 name="Vodka Wizard"
 plugin="plugin.program.vodkawizard"
 url="http://uk1.site/NewWiz/zips/plugin.program.vodkawizard.zip"
@@ -48,7 +45,6 @@ fanart="http://"
 adult="No"
 description="The Vodka Wizard by @S7ubbster. Collection of builds from @S7ubbster, Ezzerman and Unhinged"
 
-
 name="Breezz Wizard"
 plugin="plugin.program.breezz_wizard"
 url="http://uk1.site/NewWiz/zips/plugin.program.breezz_wizard-1.5.0.zip"
@@ -59,7 +55,6 @@ icon="http://uk1.site/NewWiz/artwork/breezz.png"
 fanart="http://"
 adult="No"
 description="Breezz Wizard"
-
 
 name="[B][COLOR blue]-----REPOS-----[/COLOR][/B]"
 name="EzzerMacs Repo"
@@ -73,7 +68,6 @@ fanart="http://"
 adult="no"
 description="EzzerMacs Repo"
 
-
 name="TeamDNA Repo"
 plugin="repository.teamdna"
 url="https://teamdna.pw/Install/repository.teamdna-1.0.4.zip"
@@ -84,7 +78,6 @@ icon="http://uk1.site/NewWiz/artwork/dna.png"
 fanart="http://ukodi1.com/NewWiz/artwork/dna.jpg"
 adult="no"
 description="TeamDNA Repo"
-
 
 name="Jen Repo"
 plugin="repository.jenrepo"
