@@ -1,17 +1,5 @@
 
 name="[B][COLOR lime]-----ADDONS-----[/COLOR][/B]"
-version="0.0"
-url="http://"
-gui="http://"
-kodi="17.6"
-theme="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-preview="http://"
-adult="no"
-description="Pavoo Tv Recommended Addons. Please select from the list below..."
-
-
 name="Nevena"
 plugin="plugin.video.Nevena"
 url="http://kodibalkan.com/repo/programi/plugin.video.Nevena/plugin.video.Nevena-1.1.2.zip"
@@ -37,18 +25,6 @@ description="Robin Hood TV Addon"
 
 
 name="[B][COLOR red]-----WIZARDS-----[/COLOR][/B]"
-version="0.0"
-url="http://"
-gui="http://"
-kodi="17.6"
-theme="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-preview="http://"
-adult="no"
-description="Pavoo Tv Recommended Wizards. Please select from the list below..."
-
-
 name="Ezzer-Mac Wizard"
 plugin="plugin.program.EzzerMacs-1.1.2"
 url="http://brockie.xyz/Ezzer/plugin.program.EzzerMacs-1.1.2.zip"
@@ -86,18 +62,6 @@ description="Breezz Wizard"
 
 
 name="[B][COLOR blue]-----REPOS-----[/COLOR][/B]"
-version="0.0"
-url="http://"
-gui="http://"
-kodi="17.6"
-theme="http://"
-icon="http://pavootv.com/repo/wizard/fanart.jpg"
-fanart="http://"
-preview="http://"
-adult="no"
-description="Pavoo Recommended Repos. Please select from the list below..."
-
-
 name="EzzerMacs Repo"
 plugin="repository.EzzerMacsWizard"
 url="http://miniaturelife67.co.uk/repo/repository.EzzerMacsWizard.zip"
