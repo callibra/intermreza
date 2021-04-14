@@ -1,16 +1,4 @@
 
-name="[B][COLOR lime]-----APK-----[/COLOR][/B]"
-version="1.5"
-url="http://"
-gui="http://"
-kodi="18.9"
-theme="http://"
-icon="https://raw.githubusercontent.com/callibra/intermreza/main/img/apk.png"
-fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/apk.png"
-preview="http://"
-adult="no"
-description="INTERMREZA APK"
-
 name="Mobdro APK "
 section="no"
 url="https://gitlab.com/callibra/intermreza/-/raw/master/Apk/mobdro.apk"
