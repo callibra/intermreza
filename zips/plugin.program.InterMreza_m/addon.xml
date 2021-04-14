@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.InterMreza_m" name="[B][COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
+<addon id="plugin.program.InterMreza_m" name="[B][COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR dodgerblue]Android[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
