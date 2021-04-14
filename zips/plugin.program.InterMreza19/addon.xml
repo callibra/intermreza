@@ -12,7 +12,7 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR limegreen] 19[/COLOR]</summary>
-        <description lang="en">[B][COLOR yellow]Inter[COLOR red]Mreza [COLOR white]Wizard [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI[COLOR limegreen] 19 Matrix[/COLOR][/B]</description>
+        <description lang="en">[B][COLOR yellow]Inter[COLOR red]Mreza [COLOR white]Wizard [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI[COLOR limegreen] 19 Matrix.[/COLOR][/B]</description>
         <platform>all</platform>
         <assets>
         <icon>icon.png</icon>
