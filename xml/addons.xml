@@ -1,5 +1,4 @@
 
-name="[B][COLOR lime]-----ADDONS-----[/COLOR][/B]"
 name="GreenAddon"
 plugin="plugin.video.GreenAddon.zip"
 url="https://gitlab.com/callibra/intermreza/-/raw/master/Addons/plugin.video.GreenAddon.zip"
@@ -22,7 +21,6 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/a30.jpg"
 adult="Yes"
 description="Pornky PORNOGRAFSKA SODRZINA"
 
-name="[B][COLOR red]-----WIZARDS-----[/COLOR][/B]"
 name="InterMreza Wizard 18"
 plugin="plugin.program.InterMreza-1.5.zip"
 url="https://github.com/callibra/intermreza/raw/main/zips/plugin.program.InterMreza/plugin.program.InterMreza-1.5.zip"
@@ -56,7 +54,6 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/a23.jpg"
 adult="No"
 description="InterMreza Wizard 18 Addons, Skins, Builds, IPTV koj raboti na KODI 18 versija prilagodena za ANDROID UREDI."
 
-name="[B][COLOR blue]-----REPOSITORY-----[/COLOR][/B]"
 name="InterMreza Repository"
 plugin="repository.InterMreza-1.5.zip"
 url="https://github.com/callibra/intermreza/raw/main/zips/repository.InterMreza/repository.InterMreza-1.5.zip"
