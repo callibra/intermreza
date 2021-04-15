@@ -1,16 +1,4 @@
 
-name="[B][COLOR lime]-----INTERMREZA BUILDS-----[/COLOR][/B]"
-version="1.5"
-url="http://"
-gui="http://"
-kodi="18.9"
-theme="http://"
-icon="https://raw.githubusercontent.com/callibra/intermreza/main/img/builds.png"
-fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/builds.png"
-preview="http://"
-adult="no"
-description="INTERMREZA BUILDS"
-
 name="PavooCroatiaBuild"
 version="1.0.1"
 url="http://pavootv.com/repo/wizard/build/pavoobuildcroatia-V.1.0.1.zip"
