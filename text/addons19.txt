@@ -1,4 +1,3 @@
-
 name="GreenAddon"
 plugin="plugin.video.GreenAddon.zip"
 url="https://gitlab.com/callibra/intermreza/-/raw/master/Addons/plugin.video.GreenAddon.zip"
