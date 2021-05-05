@@ -36,7 +36,7 @@ description="INTERMREZA IPTV PORTAL"
 
 name="IPTV 1"
 version="Stalker Portal"
-url="http://cmanbuilds.com/K19Builds/Asgard Realm 19.zip"
+url="https://github.com/callibra/intermreza/raw/main/IPTV/iptv18.zip"
 gui="http://"
 kodi="18.9"
 theme="http://"
