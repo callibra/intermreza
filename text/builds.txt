@@ -128,7 +128,7 @@ icon="https://raw.githubusercontent.com/callibra/intermreza/main/img/silvo.png"
 fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/skins.jpg"
 preview="http://"
 adult="no"
-description="Skin Aeon Nox Silvo InterMreza v1.5"
+description="Skin Aeon Nox Silvo InterMreza v1.5" 
 
 name="[B][COLOR cyan]-----INTERMREZA MIX-----[/COLOR][/B]"
 version="InterMreza mix"
