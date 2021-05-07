@@ -296,20 +296,6 @@ adult="No"
 info="http://"
 description="Little Gem Build by James Murray"
 
-name="Metalica Build"
-version="1.0.0"
-url="https://gitlab.com/doomzday/btbuilds1/raw/master/Metalica.zip"
-minor="http://"
-gui="http://"
-kodi="18.9"
-theme="http://"
-icon="https://doomzday.gitlab.io/doomzday/images/BRADLEY/icon.png"
-fanart="https://doomzday.gitlab.io/doomzday/images/BRADLEY/fanart.png"
-preview="http://"
-adult="no"
-info="http://"
-description="Build by Pedro Kingdom updated by Bradley Trevaskis"
-
 name="[B][COLOR lime]-----INTERMREZA-----[/COLOR][/B]"
 version="InterMreza info"
 url="http://"
@@ -321,3 +307,7 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/mix.jp
 preview="http://"
 adult="no"
 description="INTERMREZA INFO"
+
+
+
+
