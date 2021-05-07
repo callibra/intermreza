@@ -94,7 +94,17 @@ preview="http://"
 adult="no"
 description="Iptv Portal koj raboti na WINDOWS, ANDROID, LINUX i OSX Operativen Sistem."
 
-
+name="[B][COLOR red]-----INTERMREZA SKINS-----[/COLOR][/B]"
+version="InterMreza Skins"
+url="http://"
+gui="http://"
+kodi="18.9"
+theme="http://"
+icon="https://raw.githubusercontent.com/callibra/intermreza/main/img/skins.png"
+fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/skins.jpg"
+preview="http://"
+adult="no"
+description="INTERMREZA SKINS"
 
 name="Skin Aeon Nox Silvo InterMreza"
 version="1.5"
@@ -119,6 +129,8 @@ fanart=https://raw.githubusercontent.com/callibra/intermreza/main/builds/skins.j
 preview="http://"
 adult="no"
 description="Skin Confluence InterMreza v1.5"
+
+
 
 
 
