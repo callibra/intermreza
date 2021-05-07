@@ -95,7 +95,7 @@ adult="no"
 description="Iptv Portal koj raboti na WINDOWS, ANDROID, LINUX i OSX Operativen Sistem."
 
 name="[B][COLOR red]-----INTERMREZA SKINS-----[/COLOR][/B]"
-version="InterMreza Skins"
+version="1.0"
 url="http://"
 gui="http://"
 kodi="18.9"
