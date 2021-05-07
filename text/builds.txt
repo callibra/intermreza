@@ -36,7 +36,7 @@ description="INTERMREZA IPTV LISTA"
 
 name="IPTV Portal 1"
 version="1.6"
-url="https://github.com/callibra/intermreza/raw/main/iptv/iptv18-1.1.zip"
+url="https://github.com/callibra/intermreza/raw/main/iptv/iptv18-1.zip"
 gui="http://"
 kodi="18.9"
 theme="http://"
@@ -48,7 +48,7 @@ description="Iptv Portal koj raboti na WINDOWS, ANDROID, LINUX i OSX Operativen 
 
 name="IPTV Portal 2"
 version="1.6"
-url="https://github.com/callibra/intermreza/raw/main/iptv/iptv18-2.1.zip"
+url="https://github.com/callibra/intermreza/raw/main/iptv/iptv18-2.zip"
 gui="http://"
 kodi="18.9"
 theme="http://"
@@ -60,7 +60,7 @@ description="Iptv Portal koj raboti na WINDOWS, ANDROID, LINUX i OSX Operativen 
 
 name="IPTV Portal 3"
 version="1.6"
-url="https://github.com/callibra/intermreza/raw/main/iptv/iptv18-3.1.zip"
+url="https://github.com/callibra/intermreza/raw/main/iptv/iptv18-3.zip"
 gui="http://"
 kodi="18.9"
 theme="http://"
