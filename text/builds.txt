@@ -108,34 +108,29 @@ description="INTERMREZA SKINS"
 
 
 
-
-name="Scorpion 18 Theme"
-version="1.0.0"
-url="http://myatom.one/builds/themes/mortal%20combat.zip"
+name="Skin Aeon Nox Silvo InterMreza"
+version="1.5"
+url="https://github.com/callibra/intermreza/raw/main/zips/skin.aeon.nox.silvo.InterMreza/skin.aeon.nox.silvo.InterMreza-1.5.zip"
 gui="http://"
-kodi="18.0"
+kodi="18.9"
 theme="http://"
-icon="https://i.imgur.com/WuXb3Uj.png"
-fanart="https://i.imgur.com/xNyClOK.jpg"
+icon="https://raw.githubusercontent.com/callibra/intermreza/main/builds/silvo.png"
+fanart=https://raw.githubusercontent.com/callibra/intermreza/main/builds/skins.jpg"
 preview="http://"
 adult="no"
-description="Unhinged Themes"
+description="Skin Aeon Nox Silvo InterMreza v1.5"
 
-
-
-
-
-name="Harley Quinn 18 Theme"
-version="1.0.0"
-url="http://myatom.one/builds/themes/harley%20Q%20theme.zip"
+name="Skin Confluence InterMreza"
+version="1.5"
+url="https://github.com/callibra/intermreza/raw/main/zips/skin.confluence.InterMreza/skin.confluence.InterMreza-1.5.zip"
 gui="http://"
-kodi="18.0"
+kodi="18.9"
 theme="http://"
-icon="https://i.imgur.com/OSp4MjB.png"
-fanart="https://i.imgur.com/xNyClOK.jpg"
+icon="https://raw.githubusercontent.com/callibra/intermreza/main/builds/confluence.png"
+fanart=https://raw.githubusercontent.com/callibra/intermreza/main/builds/skins.jpg"
 preview="http://"
 adult="no"
-description="Unhinged Themes"
+description="Skin Confluence InterMreza v1.5"
 
 
 
