@@ -118,9 +118,6 @@ preview="http://"
 adult="no"
 description="Skin Aeon Nox Silvo InterMreza v1.5"
 
-
-
-
 name="Skin Confluence InterMreza"
 version="1.5"
 url="https://github.com/callibra/intermreza/raw/main/zips/skin.confluence.InterMreza/skin.confluence.InterMreza-1.5.zip"
@@ -132,6 +129,32 @@ fanart=https://raw.githubusercontent.com/callibra/intermreza/main/builds/skins.j
 preview="http://"
 adult="no"
 description="Skin Confluence InterMreza v1.5"
+
+name="The Simpsons Theme"
+version="1.0.0"
+url="http://myatom.one/builds/themes/SIMPSONS%2018%20THEME.zip"
+gui="http://"
+kodi="18.0"
+theme="http://"
+icon="https://i.imgur.com/uHVzkY5.png"
+fanart=""
+preview="http://"
+adult="no"
+description="Absolution Themes"
+
+
+name="Supernatural Theme"
+version="1.0.0"
+url="http://myatom.one/builds/themes/supernatural%20theme%2018.zip"
+gui="http://"
+kodi="18.0"
+theme="http://"
+icon="https://i.imgur.com/wUn4wDG.png"
+fanart=""
+preview="http://"
+adult="no"
+description="Absolution Themes"
+
 
 
 
