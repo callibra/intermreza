@@ -332,16 +332,4 @@ preview="http://"
 adult="no"
 description="INTERMREZA INFO"
 
-name="[B][COLOR orange]-----INTERMREZA-----[/COLOR][/B]"
-version="InterMreza info"
-url="http://"
-gui="http://"
-kodi="18.9"
-theme="http://"
-icon="https://raw.githubusercontent.com/callibra/intermreza/main/builds/intermreza.png"
-fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/mix.jpg"
-preview="http://"
-adult="no"
-description="INTERMREZA INFO"
-
 
