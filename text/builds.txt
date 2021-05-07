@@ -142,7 +142,6 @@ preview="http://"
 adult="no"
 description="Absolution Themes"
 
-
 name="Skin Aeon Nox Silvo InterMreza"
 version="1.5"
 url="https://github.com/callibra/intermreza/raw/main/zips/skin.aeon.nox.silvo.InterMreza/skin.aeon.nox.silvo.InterMreza-1.5.zip"
@@ -166,9 +165,6 @@ fanart=https://raw.githubusercontent.com/callibra/intermreza/main/builds/skins.j
 preview="http://"
 adult="no"
 description="Skin Confluence InterMreza v1.5"
-
-
-
 
 
 
