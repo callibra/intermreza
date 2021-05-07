@@ -130,7 +130,7 @@ preview="http://"
 adult="no"
 description="Skin Confluence InterMreza v1.5"
 
-name="[B][COLOR orange]-----INTERMREZA MIX-----[/COLOR][/B]"
+name="[B][COLOR cyan]-----INTERMREZA MIX-----[/COLOR][/B]"
 version="InterMreza mix"
 url="http://"
 gui="http://"
