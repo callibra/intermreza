@@ -130,10 +130,9 @@ preview="http://"
 adult="no"
 description="Skin Confluence InterMreza v1.5"
 
-name="[B][COLOR cyan]-----INTERMREZA MIX-----[/COLOR][/B]"
-version="InterMreza MIX"
+name="[B][COLOR orange]-----INTERMREZA MIX-----[/COLOR][/B]"
+version="InterMreza mix"
 url="http://"
-minor="http://"
 gui="http://"
 kodi="18.9"
 theme="http://"
@@ -141,7 +140,6 @@ icon="https://raw.githubusercontent.com/callibra/intermreza/main/builds/skins.jp
 fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/mix.jpg"
 preview="http://"
 adult="no"
-info="http://"
 description="INTERMREZA MIX OD POVEKE REPOZITORY"
 
 name="Doomzday - Utopia"
@@ -309,6 +307,5 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/mix.jp
 preview="http://"
 adult="no"
 description="INTERMREZA INFO"
-
 
 
