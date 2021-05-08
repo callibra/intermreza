@@ -1,5 +1,4 @@
 name="[B][COLOR lime]-----INTERMREZA ADDONS-----[/COLOR][/B]"
-url="http://"
 repository="none"
 repositoryxml="http://"
 repositoryurl="http://"
@@ -64,7 +63,6 @@ adult="no"
 description="InterMreza Wizard 18 Addons, Skins, Builds, IPTV koj raboti na KODI 18 versija prilagodena za ANDROID UREDI."
 
 name="[B][COLOR dodgerblue]-----INTERMREZA REPOSITORY-----[/COLOR][/B]"
-url="http://"
 repository="none"
 repositoryxml="http://"
 repositoryurl="http://"
