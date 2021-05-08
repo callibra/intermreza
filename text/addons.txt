@@ -1,5 +1,5 @@
 name="[B][COLOR lime]-----INTERMREZA ADDONS-----[/COLOR][/B]"
-url=""
+url="http://"
 repository="none"
 repositoryxml="http://"
 repositoryurl="http://"
