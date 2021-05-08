@@ -148,7 +148,7 @@ fanart="https://github.com/callibra/intermreza/raw/main/zips/repository.xanrepo/
 adult="no"
 description="Xanax Repository instaliranje na poveke KODI bildovi."
 
-name="[B][COLOR lime]-----INTERMREZA-----[/COLOR][/B]"
+name="[B][COLOR red]-----INTERMREZA-----[/COLOR][/B]"
 repository="none"
 repositoryxml="http://"
 repositoryurl="http://"
