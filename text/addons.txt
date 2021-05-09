@@ -117,6 +117,17 @@ fanart="https://github.com/callibra/intermreza/raw/main/zips/script.module.TvTap
 adult="no"
 description="Tv Tap IPTV addons."
 
+name="Live TV Srbija"
+plugin="plugin.video.livetvSerbia.zip"
+url="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.livetvSerbia/plugin.video.livetvSerbia-1.2.6.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.livetvSerbia/icon.png"
+fanart="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.livetvSerbia/fanart.jpg"
+adult="no"
+description="Live TV Srbija video addons za teritorijata na EX_YU."
+
 name="[B][COLOR dodgerblue]-----INTERMREZA REPOSITORY-----[/COLOR][/B]"
 repository="none"
 repositoryxml="http://"
