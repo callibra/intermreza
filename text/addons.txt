@@ -7,17 +7,6 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/addons.jp
 adult="no"
 description="INTERMREZA ADDONS
 
-name="Fen"
-plugin="plugin.video.fen.zip"
-url="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.fen/plugin.video.fen-1.8.47.zip"
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.fen/icon.png"
-fanart="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.fen/fanart.jpg"
-adult="no"
-description="Fen video addons namenet za filmska sodrzina."
-
 name="The Oath"
 plugin="plugin.video.theoath.zip"
 url="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.theoath/plugin.video.theoath-4.00.24.zip"
