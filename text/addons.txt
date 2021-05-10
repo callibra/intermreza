@@ -7,17 +7,6 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/addons.jp
 adult="no"
 description="INTERMREZA ADDONS
 
-name="The Oath"
-plugin="plugin.video.theoath.zip"
-url="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.theoath/plugin.video.theoath-4.00.24.zip"
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.theoath/icon.png"
-fanart="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.theoath/fanart.jpg"
-adult="no"
-description="The Oath video addons."
-
 name="GreenAddon"
 plugin="plugin.video.GreenAddon.zip"
 url="https://github.com/callibra/intermreza/raw/main/zips/plugin.video.GreenAddon/plugin.video.GreenAddon-1.1.5.zip"
@@ -180,6 +169,17 @@ icon="https://github.com/callibra/intermreza/raw/main/zips/repository.xanrepo/ic
 fanart="https://github.com/callibra/intermreza/raw/main/zips/repository.xanrepo/fanart.jpg"
 adult="no"
 description="Xanax Repository instaliranje na poveke KODI bildovi."
+
+name="Host 505"
+plugin="repository.host505.zip"
+url="https://github.com/callibra/intermreza/raw/main/zips/repository.host505/repository.host505-2.5.zip"
+repository=""
+repositoryxml="http://"
+repositoryurl="http://"
+icon="https://github.com/callibra/intermreza/raw/main/zips/repository.host505/icon.png"
+fanart="https://github.com/callibra/intermreza/raw/main/zips/repository.host505/fanart.jpg"
+adult="no"
+description="Host 505 video addons za filmovi."
 
 name="[B][COLOR red]-----INTERMREZA-----[/COLOR][/B]"
 repository="none"
