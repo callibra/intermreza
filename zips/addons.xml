@@ -2150,8 +2150,6 @@ v.3.3.0
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
 			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
@@ -2180,8 +2178,6 @@ v.3.3.0
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
 			<screenshot>resources/screenshot-01.jpg</screenshot>
 			<screenshot>resources/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshot-03.jpg</screenshot>
