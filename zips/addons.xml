@@ -1597,23 +1597,6 @@ v.3.3.0
   <extension library="lib" point="xbmc.python.module" />
 </addon>
 
-<addon id="script.module.simpleeval" name="Simple Eval" version="0.9.10" provider-name="Daniel Fairhead">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Simple Eval</summary>
-        <description lang="en_GB">A library for easily adding evaluatable expressions into python projects</description>
-        <platform>all</platform>
-        <license>MIT</license>
-        <source>https://github.com/mikesilvo164/script.module.simpleeval</source>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="script.module.simplejson"
        name="simplejson"
        version="3.4.2"
