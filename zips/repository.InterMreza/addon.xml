@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.InterMreza" name="[B][COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR]">
+		   <dir>
+		<info compressed="false">https://raw.githubusercontent.com/callibra/intermreza/main/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/callibra/intermreza/main/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/callibra/intermreza/main/zips/</datadir>
+		   </dir>
+		   <dir>
+		<info compressed="false">https://raw.githubusercontent.com/callibra/callibra/main/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/callibra/callibra/main/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/callibra/callibra/main/zips/</datadir>
+		   </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR]</summary>
+        <description lang="en">[B][COLOR yellow]Inter[COLOR red]Mreza [COLOR white]Repository[COLOR cyan] Aplikacija, Addoni, Temi, Wizardi, Portali [COLOR yellow]By Callibra Team[COLOR red] UNITED MACEDONIA.[/COLOR][/B]</description>
+		<platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>      
+    </assets>
+	</extension>
+</addon>
