@@ -798,7 +798,7 @@ v.3.3.0
 	</extension>
 </addon>
 
-<addon id="script.favourites" name="Favourites script" version="7.1.3" provider-name="ronie, `Black">
+<addon id="script.favourites" name="Favourites script" version="8.0.0" provider-name="ronie, `Black">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
@@ -905,11 +905,10 @@ v.3.3.0
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<forum>https://forum.kodi.tv/showthread.php?tid=114671</forum>
-		<source>https://gitlab.com/ronie/script.favourites</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
+		<forum>http://forum.kodi.tv/showthread.php?tid=114671</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/ronie/script.favourites</source>
 	</extension>
 </addon>
 
@@ -1599,10 +1598,10 @@ v.3.3.0
 
 <addon id="script.module.simplejson"
        name="simplejson"
-       version="3.4.2"
+       version="3.16.1"
        provider-name="Bob Ippolito">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
@@ -1611,13 +1610,10 @@ v.3.3.0
     <language></language>
     <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
     <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
-    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/
-!! do NOT use Gaia's fake 3.4.1 version;
--> includes Cryptocurrency-mining malware:
-=> 'script.module.python.requests'</disclaimer>
+    <disclaimer lang="en">Code taken from https://pypi.org/project/simplejson/</disclaimer>
     <license>MIT License, Academic Free License v. 2.1</license>
-    <website>https://pypi.python.org/pypi/simplejson/</website>
-    <source>https://pypi.python.org/pypi/simplejson/</source>
+    <website>https://pypi.org/project/simplejson/</website>
+    <source>https://github.com/simplejson/simplejson</source>
   </extension>
 </addon>
 
@@ -1939,7 +1935,7 @@ v.3.3.0
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17" provider-name="BigNoid,marcelveldt">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.20" provider-name="BigNoid,marcelveldt,auramod,cartmandos">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -2143,13 +2139,13 @@ v.3.3.0
 <addon id="skin.confluence.InterMreza" version="1.5" name="[B][COLOR white]Confluence[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
-		<import addon="script.artistslideshow" version="2.1.3"/>
-		<import addon="script.artistslideshow-helper" version="0.4.4"/>
-		<import addon="script.favourites" version="7.0.0"/>
-		<import addon="script.grab.fanart" version="0.12.8"/>
-		<import addon="script.skinshortcuts" version="0.4.5"/>
-		<import addon="service.library.data.provider" version="0.0.7"/>
-		<import addon="context.skinshortcuts.addtomenu" version="0.0.1"/>
+		<import addon="script.image.resource.select" version="1.1.0"/>
+		<import addon="script.skinshortcuts" version="1.0.10"/>
+		<import addon="script.skin.helper.service" version="1.0.10"/>
+		<import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+		<import addon="script.skin.helper.widgets" version="1.0.10"/>
+		<import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+		<import addon="script.skin.helper.colorpicker" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
