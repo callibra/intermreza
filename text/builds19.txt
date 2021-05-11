@@ -26,7 +26,7 @@ adult="no"
 info="http://"
 description="Nitro 19 Build by cMaN"
 
-name="[B][COLOR dodgerblue]-----INTERMREZA IPTV-----[/COLOR][/B]"
+name="[B][COLOR cyan]-----INTERMREZA IPTV-----[/COLOR][/B]"
 version="InterMreza Iptv Lista"
 url="http://"
 minor="http://"
