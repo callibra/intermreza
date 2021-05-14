@@ -20,7 +20,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.InterMreza" name="[B][COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
+<addon id="plugin.program.InterMreza" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Wizard[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -30,7 +30,7 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[/COLOR]</summary>
-    <description lang="en">[B][COLOR yellow]Inter[COLOR red]Mreza [COLOR white]Wizard [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI.[/COLOR][/B]</description>
+    <description lang="en">[COLOR yellow][B]Inter[COLOR red]Mreza [COLOR white]Wizard [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI.[/COLOR][/B]</description>
     <platform>all</platform>
     <assets>
     <icon>icon.png</icon>
@@ -39,7 +39,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.InterMrezaAndroid" name="[B][COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR dodgerblue] Android[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
+<addon id="plugin.program.InterMrezaAndroid" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR dodgerblue] Android[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -49,7 +49,7 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[/COLOR]</summary>
-    <description lang="en">[B][COLOR yellow]Inter[COLOR red]Mreza [COLOR white]Wizard[COLOR dodgerblue] Android [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI [COLOR yellow]Android Apk.[/COLOR][/B]</description>
+    <description lang="en">[COLOR yellow][B]Inter[COLOR red]Mreza [COLOR white]Wizard[COLOR dodgerblue] Android [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI [COLOR yellow]Android Apk.[/COLOR][/B]</description>
     <platform>all</platform>
 	<assets>
     <icon>icon.png</icon>
@@ -422,7 +422,7 @@ Initial Release
     </extension>
 </addon>
 
-    <addon id="repository.InterMreza" name="[B][COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
+    <addon id="repository.InterMreza" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -440,7 +440,7 @@ Initial Release
         </extension>
         <extension point="xbmc.addon.metadata">
 		<summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR]</summary>
-        <description lang="en">[B][COLOR yellow]Inter[COLOR red]Mreza [COLOR white]Repository[COLOR cyan] Aplikacija, Addoni, Temi, Wizardi, Portali [COLOR yellow]By Callibra Team[COLOR red] UNITED MACEDONIA.[/COLOR][/B]</description>
+        <description lang="en">[COLOR yellow][B]Inter[COLOR red]Mreza [COLOR white]Repository[COLOR cyan] Aplikacija, Addoni, Temi, Wizardi, Portali [COLOR yellow]By Callibra Team[COLOR red] UNITED MACEDONIA.[/COLOR][/B]</description>
 		<platform>all</platform>
     <assets>
         <icon>icon.png</icon>
@@ -1580,7 +1580,7 @@ Initial Release
   </extension>
 </addon>
 
-<addon id="skin.aeon.nox.silvo.InterMreza" version="1.5" name="[B][COLOR white]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
+<addon id="skin.aeon.nox.silvo.InterMreza" version="1.5" name="[COLOR white][B]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="script.skinshortcuts" version="1.0.10" />
@@ -1592,8 +1592,8 @@ Initial Release
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B][COLOR white]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]</summary>
-    <description lang="en">[B][COLOR white]Aeon-Nox-SiLVO InterMreza v1.5[/COLOR][/B]</description>
+		<summary lang="en">[COLOR white][B]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]</summary>
+    <description lang="en">[COLOR white][B]Aeon-Nox-SiLVO InterMreza v1.5[/COLOR][/B]</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
@@ -1605,7 +1605,7 @@ Initial Release
 	</extension>
 </addon>
 
-<addon id="skin.confluence.InterMreza" version="1.5" name="[B][COLOR white]Confluence[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
+<addon id="skin.confluence.InterMreza" version="1.5" name="[COLOR white][B]Confluence[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.artistslideshow" version="2.1.3"/>
@@ -1620,8 +1620,8 @@ Initial Release
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B][COLOR white]Confluence[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]</summary>
-    <description lang="en">[B][COLOR white]Confluence InterMreza v1.5[/COLOR][/B]</description>
+		<summary lang="en">[COLOR white][B]Confluence[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]</summary>
+    <description lang="en">[COLOR white][B]Confluence InterMreza v1.5[/COLOR][/B]</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
