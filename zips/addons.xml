@@ -1592,7 +1592,7 @@ Initial Release
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR white][B]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]</summary>
+		<summary lang="en">[COLOR white]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[/COLOR]</summary>
     <description lang="en">[COLOR white][B]Aeon-Nox-SiLVO InterMreza v1.5[/COLOR][/B]</description>
 		<platform>all</platform>
 		<assets>
@@ -1620,7 +1620,7 @@ Initial Release
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR white][B]Confluence[COLOR yellow] Inter[COLOR red]Mreza[/COLOR][/B]</summary>
+		<summary lang="en">[COLOR white]Confluence[COLOR yellow] Inter[COLOR red]Mreza[/COLOR]</summary>
     <description lang="en">[COLOR white][B]Confluence InterMreza v1.5[/COLOR][/B]</description>
 		<platform>all</platform>
 		<assets>
