@@ -140,7 +140,7 @@ description="INTERMREZA SKINS ZA KODI LEIA 18."
 
 name="Confluence InterMreza"
 version="1.5"
-url="http://myatom.one/builds/themes/watchmen%20theme%2018.zip"
+url="https://gitlab.com/callibra/intermreza/-/raw/master/Skins/intermreza-silvo18.zip"
 minor="http://"
 gui="http://"
 kodi="18.9"
