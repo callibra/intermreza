@@ -98,7 +98,7 @@ description="INTERMREZA BUILDS ZA KODI LEIA 18."
 
 name="InterMreza-IPTV"
 version="1.1"
-url="https://gitlab.com/doomzday/build2/raw/master/UTOPIA.zip"
+url="https://gitlab.com/callibra/intermreza/-/raw/master/BuildsIPTV/intermreza-iptv18.zip"
 minor="http://"
 gui="http://"
 kodi="18.9"
