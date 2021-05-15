@@ -108,7 +108,7 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/iptv.j
 preview=""
 adult="No"
 info="http://"
-description="InterMreza-IPTV osnovna verzija so IPTV portal "
+description="InterMreza-IPTV osnovna verzija so IPTV portal."
 
 name="Doomzday - Fabulous 50s"
 version="1.1.5"
