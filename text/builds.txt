@@ -154,7 +154,7 @@ description="Skin Confluence InterMreza v1.5."
 
 name="Aeon Nox Silvo InterMreza"
 version="1.5"
-url="http://myatom.one/builds/themes/motivation%20theme.zip"
+url="https://gitlab.com/callibra/intermreza/-/raw/master/Skins/intermreza-silvo18.zip"
 minor="http://"
 gui="http://"
 kodi="18.9"
