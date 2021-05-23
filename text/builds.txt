@@ -28,7 +28,7 @@ description="Step back in time, when evrything was simply FABULOUS. Skin nox 5, 
 
 name="InterMreza - PORNO"
 version="1.1.5"
-url="https://gitlab.com/doomzday/build6/raw/master/USA19.zip"
+url="https://gitlab.com/callibra/intermreza/-/raw/master/BuildsAdults/intermreza-porno.zip"
 minor="http://"
 gui="http://"
 kodi="19.1"
@@ -38,7 +38,7 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/adults
 preview="http://"
 adult="no"
 info="http://"
-description="InterMreza - PORNO 18+ sodrzina v1.1.5."
+description="InterMreza - PORNO v1.1.5  18+ Sodrzina."
 
 name="[COLOR red][B]---INTERMREZA SKINS MATRIX 19---[/COLOR][/B]"
 version="19.0"
