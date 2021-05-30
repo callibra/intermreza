@@ -52,7 +52,7 @@ fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/skins.jpg
 preview="http://"
 adult="no"
 info="http://"
-description="Intermreza skins za Kodi Matrix 19."
+description="INTERMREZA SKINS ZA KODI MATRIX 19."
 
 name="Confluence InterMreza 19"
 version="1.5"

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.InterMreza19" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR lime] 19[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
+    <requires>
+       <import version="3.0.0" addon="xbmc.python"/>
+       <import addon="script.module.requests"/>
+       <import addon="script.module.six"/>
+       <import version="1.3.2" addon="script.kodi.android.update" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR lime] 19[/COLOR]</summary>
+        <description lang="en">[COLOR yellow][B]Inter[COLOR red]Mreza [COLOR white]Wizard [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI[COLOR lime] 19 Matrix.[/COLOR][/B]</description>
+        <platform>all</platform>
+        <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.com.pornky"
+version="0.9.8"
+name="pornky.com"
+provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
+<requires>
+  <import addon="script.module.requests" />
+  <import addon="script.module.beautifulsoup4" />
+  <import addon="script.module.six"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  <platform>all</platform>
+  <summary lang="en">pornky.com</summary>
+  <description lang="en_GB">pornky.com video plugin for Kodi.</description>
+  <disclaimer lang="en_GB">License GPLv3. Software is provided 'as is' without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of fitness for a purpose, or the warranty of non-infringement.</disclaimer>
+  <description lang="cs_CZ">pornky.com video plugin pro Kodi.</description>
+  <disclaimer lang="cs_CZ">Licence GPLv3. Software je poskytován „tak, jak je“, bez jakékoli záruky, ať výslovné nebo předpokládané, včetně, ale nikoli výhradně, předpokládaných záruk způsobilosti pro určitý účel nebo záruky neporušení práv.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <email>fr33p0rt@protonmail.com</email>
+  <news>New player based video path calculation</news>
+</extension>
+</addon>
+
+    <addon id="repository.cMaNWizard" name="cMaN's Wizard Repository" version="1.0.6" provider-name="cMaN">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="cMaN's Wizard Repository">
+            <info compressed="false">http://cmanbuilds.com/_repo/addons.xml</info>
+            <checksum>http://cmanbuilds.com/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://cmanbuilds.com/_repo/</datadir>
+            <hashes>false</hashes>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+
+		<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install all the latest Builds</summary>
+            <description>Welcome to the New and Improved cMaN Wizard for all your Community Builds.</description>
+            <platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="repository.doomzday" name="Doomzday Repo" version="1.0.7" provider-name="DD Team">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Doomzday Repo">
+        <info compressed="false">https://raw.githubusercontent.com/doomzdayteam/repo/master/_zipfiles/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/doomzdayteam/repo/master/_zipfiles/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/doomzdayteam/repo/master/_zipfiles/</datadir>
+        <hashes>false</hashes>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+        <dir>
+           <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+           <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+           <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Doomzday Repository</summary>
+        <description lang="en_GB">Repo from the Doomzday Team for you.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+    <addon id="repository.EzzerMacsWizard" name="EzzerMacs Wizard Repository" version="1.1.5" provider-name="EzzerMac">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="EzzerMacs Wizard Repository">
+            <info compressed="false">http://www.ezzer-mac.com/_repo/addons.xml</info>
+            <checksum>http://www.ezzer-mac.com/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://www.ezzer-mac.com/_repo/</datadir>
+            <hashes>false</hashes>
+
+            <dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+
+
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install all the latest Builds</summary>
+            <description>Welcome to the New and Improved EZZERMACS WIZARD for all your Community Builds, All the Help and Assistance can be found Here</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.host505" name="host505 repo" version="2.5" provider-name="host505">
+    <extension point="xbmc.addon.repository" name="host505 repo">
+    <dir>
+        <info compressed="false">https://github.com/host505/repository.host505/raw/master/addons.xml</info>
+        <checksum>https://github.com/host505/repository.host505/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/host505/repository.host505/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Testing and Learning stuff</summary>
+        <description>host505 repo</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="repository.InterMreza" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR]">
+		   <dir>
+		<info compressed="false">https://raw.githubusercontent.com/callibra/intermreza/main/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/callibra/intermreza/main/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/callibra/intermreza/main/zips/</datadir>
+		   </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR]</summary>
+        <description lang="en">[COLOR yellow][B]Inter[COLOR red]Mreza [COLOR white]Repository[COLOR cyan] Aplikacija, Addoni, Temi, Wizardi, Portali [COLOR yellow]By Callibra Team[COLOR red] UNITED MACEDONIA.[/COLOR][/B]</description>
+		<platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+	</extension>
+</addon>
+
+
+				<!--// Balkan Green Repository \\-->
+
+<addon
+  id="repository.kodibalkan"
+  name="[COLOR=lime]Balkan Green[/COLOR] [COLOR=white]Repository[/COLOR]"
+  version="2.2.5"
+  provider-name="Balkan Green Team">
+	<extension point="xbmc.addon.repository"
+    name="[COLOR=white]Kodi[/COLOR] [COLOR=lime]Balkan Green[/COLOR] [COLOR=white]Repository[/COLOR]">
+				<info compressed="false">http://blackeye.drycloth.org/repo/kodibalkan-repo-addons/addons.xml</info>
+				<checksum>http://blackeye.drycloth.org/repo/kodibalkan-repo-addons/addons.xml.md5</checksum>
+				<datadir zip="true">http://blackeye.drycloth.org/repo/kodibalkan-repo-addons/addoni-u-repu/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="hr_HR">Kodi Balkan Green Repozitorij. [COLOR=cyan]Facebook[/COLOR] Grupa: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</summary>
+		<summary lang="en_GB">Kodi Balkan Green Repository. [COLOR cyan]Facebook[/COLOR] Group: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</summary>
+		<description lang="hr_HR">Kodi Balkan Green Repositorij. Besplatan IPTV add-on, kids add-on i ostali dodatci potrebni za koristenje Kodi aplikacije. [COLOR=cyan]Facebook[/COLOR] Grupa: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</description>
+		<description lang="en_GB">Kodi Balkan Green Repository. Free IPTV add-on, kids add-on and other addon's needed for use the Kodi aplications. [COLOR cyan]Facebook[/COLOR] Group: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</description>
+		<news lang="hr_HR">Nova verzija [COLOR=white]Kodi[/COLOR] [COLOR=lime]Balkan Green[/COLOR] [COLOR=white]Repositorij[/COLOR]-a. Verzija: 2.2.5 Dodani novi addoni, ispravljeni nedostatci, izmijenjen izgled i funkcionalnost Repositorija. [COLOR=cyan]Facebook[/COLOR] Grupa: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</news>
+        <news lang="en_GB">New version of the [COLOR=white]Kodi[/COLOR] [COLOR=lime]Balkan Green[/COLOR] [COLOR=white]Repository[/COLOR]. Version: 2.2.5 Added new addons, fixed bugs, changed layout and functionality of Repository. [COLOR cyan]Facebook[/COLOR] Group: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</news>
+		<disclaimer lang="hr_HR">Autor ovog repozitorija ne sadrzi bilo koji sadrzaj koji se nalazi i nema vezu s bilo kojim davateljima sadrzaja. Koristite na vlastiti rizik! [COLOR cyan]Facebook[/COLOR] Grupa: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</disclaimer>
+		<disclaimer lang="en_GB">Author of this repository does not contain any content and has no connection with any content provider. Use at your own risk! [COLOR cyan]Facebook[/COLOR] Group: [COLOR=lime]Balkan Green[/COLOR] - [COLOR=cyan]Web Site[/COLOR] [COLOR=lime]kodibalkan.org[/COLOR]</disclaimer>
+			<platform>all</platform>
+			<website>http://kodibalkan.org</website>
+	</extension>
+</addon>
+
+<addon id="repository.livetvSerbia" name="Live TV Serbia Repository" version="1.1" provider-name="livetvSerbia">
+	<extension point="xbmc.addon.repository" name="Live TV Serbia Repository">
+
+
+            <info compressed="false">https://livetvkodiserbia.com/live/addon/addons.xml</info>
+            <checksum>https://livetvkodiserbia.com/live/addon/addons.xml.md5</checksum>
+            <datadir zip="true">https://livetvkodiserbia.com/kodi/zips/</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Watch IPTV channels from Balkan</summary>
+		<description>Watch IPTV channels from Balkan. For more info visit our FB page @ facebook.com/livetvserbia</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="skin.aeon.nox.silvo.InterMreza19" version="1.5" name="[COLOR white][B]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="1.0.10" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR white]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19 Matrix[/COLOR]</summary>
+    <description lang="en">[COLOR white][B]Aeon-Nox-SiLVO InterMreza 19 v1.5[/COLOR][/B]</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="skin.confluence.InterMreza19" version="1.5" name="[COLOR white][B]Confluence[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.image.resource.select" version="1.1.0"/>
+		<import addon="script.skinshortcuts" version="1.0.10"/>
+		<!--<import addon="script.skin.helper.service" version="1.0.10"/>
+		<import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+		<import addon="script.skin.helper.widgets" version="1.0.10"/>
+		<import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+		<import addon="script.skin.helper.colorpicker" version="1.0.0"/>-->
+
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR white][Confluence[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19 Matrix[/COLOR]</summary>
+    <description lang="en">[COLOR white][B]Confluence InterMreza 19 v1.5[/COLOR][/B]</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+</addons>
