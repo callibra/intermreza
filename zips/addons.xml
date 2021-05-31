@@ -22,6 +22,33 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.apex_sports" name="ApeX Sports" version="1.0.6" provider-name="arxtic.ape">
+	<requires>
+		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
+		<import addon="script.module.beautifulsoup4" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.dateutil"/>
+		<import addon="script.module.pytz"/>
+		<import addon="script.module.tzlocal"/>
+
+
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Simple sports addon.</summary>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+
+		<platform>all</platform>
+
+		<assets>
+        <icon>icon.jpg</icon>
+    </assets>
+	</extension>
+</addon>
+
 <addon id="plugin.video.com.pornky"
 version="0.9.8"
 name="pornky.com"
@@ -49,6 +76,92 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
   <email>fr33p0rt@protonmail.com</email>
   <news>New player based video path calculation</news>
 </extension>
+</addon>
+
+<addon id="plugin.video.qcontinuum" name="Q Continuum" provider-name="Ezzer-man,Narcacist,cMaN, Stuart, DeLancie" version="0.0.2">
+    <requires>
+	    <import addon="script.module.six" version="0.0.1"/>
+		<import addon="script.module.requests"/>
+        <import addon="script.module.resolveurl"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en">Welcome to the Q Continuum</summary>
+        <description lang="en">“The Q Continuum is an extra-dimensional plane of existence inhabited by a race of beings known as the Q”</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+
+        </news>
+    </extension>
+</addon>
+
+<addon id="plugin.video.QSports"
+	   name="[COLORwhite]Q Sports[/COLOR]"
+	   version="1.0.3"
+	   provider-name="The Q">
+	<requires>
+		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
+		<import addon="script.module.beautifulsoup4" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.dateutil"/>
+		<import addon="script.module.pytz"/>
+		<import addon="plugin.video.youtube" />
+
+
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Sports Addon</summary>
+		<description lang="en">MIT License And Copyright Included In The Addon - This Addon Is A Modified Fork - All Credit Goes To The Original Creator
+We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
+</description>
+
+		<platform>all</platform>
+
+		<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.sporthdme" name="SportHD" version="0.1.8" provider-name="Bugatsinho">
+  <requires>
+    <!--import addon="xbmc.python" version="2.1.0"/-->
+    <import addon="script.module.dateutil" />
+    <import addon="script.module.six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportHD by Bugatsinho</summary>
+    <description lang="en">Sport Streams from SportHD.me</description>
+    <disclaimer lang="en">All the streams on this add-on are hosted on the third party site and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
+	  <language>EN</language>
+    <license>GNU GPL, version 2</license>
+    <twitter>https://twitter.com/Bugatsinho</twitter>
+    <news>-compatible with Kodi18.x - 19.x version</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.00.27">
@@ -86,6 +199,77 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
         <news>
 - See Changelog on Tools menu
         </news>
+    </extension>
+</addon>
+
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.11+matrix.1" provider-name="anxdpanic, bromix">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six" version="1.11.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[fix] mktime overflow when loading My Subscriptions
+[fix] encoding issues in search history |contrib: dreznichuk|
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en_GB">Plugin for YouTube</summary>
+        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+        <summary lang="he_IL">תוסף עבור YouTube</summary>
+        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+        <summary lang="de_DE">Plugin für YouTube</summary>
+        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl_PL">Wtyczka YouTube</summary>
+        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+        <summary lang="hu_HU">YouTube kiegészítő</summary>
+        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es_ES">Plugin para YouTube</summary>
+        <description lang="es_ES">YouTube es uno de los sitios web más grande del mundo para compartir vídeos.</description>
+        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="es_MX">Plugin para YouTube</summary>
+        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="ru_RU">Видеодополнение YouTube</summary>
+        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+        <summary lang="fr_FR">Plugin pour YouTube</summary>
+        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh_CN">YouTube附加元件</summary>
+        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="zh_TW">YouTube附加元件</summary>
+        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
+        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+        <summary lang="bg_BG">Добавка за YouTube</summary>
+        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+        <summary lang="nb_NO">Tillegg for YouTube</summary>
+        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+        <summary lang="ko_KR">유튜브 플러그인</summary>
+        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+        <summary lang="cs_CZ">Plugin pro YouTube</summary>
+        <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
+        <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
+        <summary lang="tr_TR">YouTube için eklenti</summary>
+        <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir</description>
+        <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://ytaddon.panicked.xyz/forum</forum>
+        <website>https://www.youtube.com</website>
+        <source>https://github.com/anxdpanic/plugin.video.youtube</source>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
 
@@ -396,6 +580,32 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
   </extension>
 </addon>
 
+<addon id="script.grab.fanart"
+    name="Grab Fanart" version="0.16.0" provider-name="robweber">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.future" version="0.16.0.4"/>
+  </requires>
+  <extension point="xbmc.python.library" library="default.py" />
+  <extension point="xbmc.service" library="launcher.py"  />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Exposes fanart as skin properties for slideshows, etc</summary>
+    <description lang="en_GB">Uses the Kodi database to grab all fanart from media items and put it into a skin property for use by skins/slideshows.</description>
+    <forum>https://forum.kodi.tv/showthread.php?tid=166572</forum>
+    <source>https://github.com/robweber/script.grab.fanart</source>
+	<website>https://github.com/robweber/script.grab.fanart</website>
+    <license>MIT</license>
+    <platform>all</platform>
+    <language>en</language>
+    <news>Version 0.16.0
+- made compatible with Matrix
+    </news>
+    <assets>
+    	<icon>resources/media/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.image.resource.select" name="Image Resource Select Addon" version="3.0.2" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -469,6 +679,49 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
   </extension>
 </addon>
 
+<addon id="script.module.dateutil"
+       name="python-dateutil"
+       version="2.8.1+matrix.1"
+       provider-name="Paul Ganssle, Gustavo Niemeyer">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.six" version="1.14.0+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Extensions to the standard Python datetime module</summary>
+    <description lang="en_GB">The dateutil module provides powerful extensions to the standard datetime module, available in Python.</description>
+    <license>Apache-2.0, BSD-3-Clause</license>
+    <website>https://dateutil.readthedocs.io/en/stable/</website>
+    <source>https://github.com/dateutil/dateutil</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.future"
+       name="future"
+       version="0.18.2+matrix.1"
+       provider-name="Ed Schofield">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Clean single-source support for Python 3 and 2</summary>
+    <description lang="en_GB">future is the missing compatibility layer between Python 2 and Python 3. It allows you to use a single, clean Python 3.x-compatible codebase to support both Python 2 and Python 3 with minimal overhead.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://github.com/PythonCharmers/python-future</source>
+    <website>http://python-future.org</website>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.idna" name="idna" version="2.10.0+matrix.1" provider-name="Kim Davies">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -536,6 +789,24 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
     </assets>
     <news></news>
     </extension>
+</addon>
+
+<addon id="script.module.pytz" name="pytz" version="2019.3.0+matrix.2" provider-name="Stuart Bishop, Paul Backhouse">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+	    <summary lang="en_GB">World Timezone Definitions for Python.</summary>
+	    <description lang="en_GB">pytz brings the Olson tz database into Python. This library allows accurate and cross platform timezone calculations using Python 2.4 or higher. It also solves the issue of ambiguous times at the end of daylight saving time, which you can read more about in the Python Library Reference (datetime.tzinfo).</description>
+	    <platform>all</platform>
+	    <license>MIT</license>
+	    <website>https://pythonhosted.org/pytz/</website>
+	    <source>https://github.com/stub42/pytz</source>
+	    <assets>
+            <icon>icon.png</icon>
+	    </assets>
+	</extension>
 </addon>
 
 <addon id="script.module.requests" name="requests" version="2.25.1+matrix.1" provider-name="Python Software Foundation">
@@ -688,6 +959,31 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 	</extension>
 </addon>
 
+<addon id="script.module.tzlocal"
+       name="tzlocal"
+       version="2.0.1"
+       provider-name="Lennart Regebro">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.25.0"/> -->
+    <import addon="script.module.pytz" version="2014.2"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python Module to find out the current time zone</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/regebro/tzlocal, forked from https://github.com/jdollarKodi/script.module.tzlocal</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/regebro/tzlocal</website>
+    <source>https://github.com/regebro/tzlocal</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.unidecode" name="unidecode" version="1.1.1+matrix.2" provider-name="Tomaz Solc (Tomaz.solc@tablix.org)">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -823,6 +1119,30 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 	</extension>
 </addon>
 
+<addon id="skin.aeon.nox.silvo.im19" version="1.8" name="[COLOR white][B]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="1.0.10" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="script.grab.fanart" version="0.12.8" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR white]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19 Matrix[/COLOR]</summary>
+    <description lang="en">[COLOR white][B]Aeon-Nox-SiLVO InterMreza 19 v1.8[/COLOR][/B]</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="skin.aeon.nox.silvo.InterMreza19" version="1.5" name="[COLOR white][B]Aeon-Nox-SiLVO[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
@@ -864,7 +1184,7 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR white][Confluence[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19 Matrix[/COLOR]</summary>
+		<summary lang="en">[COLOR white]Confluence[COLOR yellow] Inter[COLOR red]Mreza[COLOR lime] 19 Matrix[/COLOR]</summary>
     <description lang="en">[COLOR white][B]Confluence InterMreza 19 v1.5[/COLOR][/B]</description>
 		<platform>all</platform>
 		<assets>
