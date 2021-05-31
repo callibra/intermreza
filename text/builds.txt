@@ -96,7 +96,7 @@ adult="no"
 info="http://"
 description="Skin Aeon Nox Silvo InterMreza 19 v1.8."
 
-name="[COLOR cyan][B]---INTERMREZA---[/COLOR][/B]"
+name="[COLOR red][B]---INTERMREZA---[/COLOR][/B]"
 version="19.1"
 url="http://"
 minor="http://"
