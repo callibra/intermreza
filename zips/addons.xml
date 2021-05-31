@@ -78,68 +78,6 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
 </extension>
 </addon>
 
-<addon id="plugin.video.qcontinuum" name="Q Continuum" provider-name="Ezzer-man,Narcacist,cMaN, Stuart, DeLancie" version="0.0.2">
-    <requires>
-	    <import addon="script.module.six" version="0.0.1"/>
-		<import addon="script.module.requests"/>
-        <import addon="script.module.resolveurl"/>
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <summary lang="en">Welcome to the Q Continuum</summary>
-        <description lang="en">“The Q Continuum is an extra-dimensional plane of existence inhabited by a race of beings known as the Q”</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum />
-        <website />
-        <source />
-        <disclaimer lang="en">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <news>
-
-        </news>
-    </extension>
-</addon>
-
-<addon id="plugin.video.QSports"
-	   name="[COLORwhite]Q Sports[/COLOR]"
-	   version="1.0.3"
-	   provider-name="The Q">
-	<requires>
-		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
-		<import addon="script.module.beautifulsoup4" version="3.2.1"/>
-		<import addon="script.module.requests"  />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.dateutil"/>
-		<import addon="script.module.pytz"/>
-		<import addon="plugin.video.youtube" />
-
-
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Sports Addon</summary>
-		<description lang="en">MIT License And Copyright Included In The Addon - This Addon Is A Modified Fork - All Credit Goes To The Original Creator
-We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
-</description>
-
-		<platform>all</platform>
-
-		<assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.sporthdme" name="SportHD" version="0.1.8" provider-name="Bugatsinho">
   <requires>
     <!--import addon="xbmc.python" version="2.1.0"/-->
