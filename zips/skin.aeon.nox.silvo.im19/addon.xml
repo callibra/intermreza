@@ -11,7 +11,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">[COLOR white]Aeon-Nox-SiLVO[COLOR yellow] I[COLOR red]M[COLOR lime] 19 Matrix[/COLOR]</summary>
-    <description lang="en">[COLOR white][B]Aeon-Nox-SiLVO IM 19 v1.8[/COLOR][/B]</description>
+    <description lang="en">[COLOR white][B]Aeon-Nox-SiLVO InterMreza 19 v1.8[/COLOR][/B]</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
