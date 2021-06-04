@@ -1,5 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.acme.livenet"
+       name="   [COLORspringgreen]Live[/COLOR][COLORpalegreen]N[/COLOR][COLORlime]et[/COLOR]"
+       version="21.5.20"
+       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.dateutil" />
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLORspringgreen]ACME [COLORpalegreen]LiveNet[/COLOR]</summary>
+        <description>[COLORspringgreen]ACME [COLORpalegreen]LiveNet[/COLOR]</description>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.acme.swift"
+       name="   [COLORspringgreen]Sw[/COLOR][COLORpalegreen]i[/COLOR][COLORlime]ft[/COLOR]"
+       version="21.5.20"
+       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">[COLORspringgreen]ACME [COLORpalegreen]Swift[/COLOR]</summary>
+        <description>[COLORspringgreen]ACME [COLORpalegreen]Swift[/COLOR]</description>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.acme.tvnsports"
+       name="   [COLORspringgreen]Tv[/COLOR][COLORpalegreen]N[/COLOR][COLORlime]Sports[/COLOR]"
+       version="21.5.20"
+       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
+    <requires>
+        <import addon="script.module.beautifulsoup4" version="3.2.1"/>
+        <import addon="script.module.requests"  />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.dateutil"/>
+        <import addon="script.module.pytz"/>
+        <import addon="script.module.tzlocal"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLORspringgreen]ACME [/COLOR][COLORpalegreen]Tv [/COLOR][COLORlime]N [/COLOR][COLORspringgreen]Sports[/COLOR]</summary>
+        <description>[COLORspringgreen]ACME [/COLOR][COLORpalegreen]Tv [/COLOR][COLORlime]N [/COLOR][COLORspringgreen]Sports[/COLOR]</description>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+
+        <platform>all</platform>
+
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.acme.tvtap"
+       name="   [COLORspringgreen]Tv[/COLOR][COLORpalegreen]T[/COLOR][COLORlime]ap[/COLOR]"
+       version="21.5.20"
+       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLORspringgreen]ACME [COLORpalegreen]TvTap[/COLOR]</summary>
+        <description>[COLORspringgreen]ACME [COLORpalegreen]TvTap[/COLOR]</description>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.program.InterMreza19" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR lime] 19[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
     <requires>
        <import version="3.0.0" addon="xbmc.python"/>
@@ -19,33 +150,6 @@
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
         </assets>
-	</extension>
-</addon>
-
-<addon id="plugin.video.apex_sports" name="ApeX Sports" version="1.0.6" provider-name="arxtic.ape">
-	<requires>
-		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
-		<import addon="script.module.beautifulsoup4" version="3.2.1"/>
-		<import addon="script.module.requests"  />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.dateutil"/>
-		<import addon="script.module.pytz"/>
-		<import addon="script.module.tzlocal"/>
-
-
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Simple sports addon.</summary>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-
-		<platform>all</platform>
-
-		<assets>
-        <icon>icon.jpg</icon>
-    </assets>
 	</extension>
 </addon>
 
@@ -76,30 +180,6 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
   <email>fr33p0rt@protonmail.com</email>
   <news>New player based video path calculation</news>
 </extension>
-</addon>
-
-<addon id="plugin.video.sporthdme" name="SportHD" version="0.1.8" provider-name="Bugatsinho">
-  <requires>
-    <!--import addon="xbmc.python" version="2.1.0"/-->
-    <import addon="script.module.dateutil" />
-    <import addon="script.module.six" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">SportHD by Bugatsinho</summary>
-    <description lang="en">Sport Streams from SportHD.me</description>
-    <disclaimer lang="en">All the streams on this add-on are hosted on the third party site and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
-	  <language>EN</language>
-    <license>GNU GPL, version 2</license>
-    <twitter>https://twitter.com/Bugatsinho</twitter>
-    <news>-compatible with Kodi18.x - 19.x version</news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.00.27">
@@ -866,6 +946,30 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
   </extension>
 </addon>
 
+<addon	id="script.module.defusedxml"
+		name="defusedxml"
+		version="0.6.0+matrix.1"
+		provider-name="Christian Heimes">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension
+		point="xbmc.python.module"
+		library="lib" />
+	<extension
+		point="xbmc.addon.metadata">
+		<summary lang="en_GB">defusedxml -- defusing XML bombs and other exploits</summary>
+		<description lang="en_GB">Packed for KODI from https://github.com/tiran/defusedxml</description>
+		<platform>all</platform>
+		<license>PSF</license>
+		<website>https://pypi.org/project/defusedxml/</website>
+		<source>https://github.com/tiran/defusedxml</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="script.module.future"
        name="future"
        version="0.18.2+matrix.1"
@@ -954,6 +1058,30 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
     </assets>
     <news></news>
     </extension>
+</addon>
+
+<addon id="script.module.pyamf"
+       name="PyAMF"
+       version="0.8.10+matrix.3"
+       provider-name="The Py3AMF Project">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.defusedxml" version="0.6.0+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">PyAMF provides Action Message Format (AMF) support for Python that is compatible with the Adobe Flash Player.</summary>
+    <description lang="en_GB">The Adobe Integrated Runtime and Adobe Flash Player use AMF to communicate between an application and a remote server. AMF encodes remote procedure calls (RPC) into a compact binary representation that can be transferred over HTTP/HTTPS or the RTMP/RTMPS protocol. Objects and data values are serialized into this binary format, which increases performance, allowing applications to load data up to 10 times faster than with text-based formats such as XML or SOAP.
+AMF3, the default serialization for ActionScript 3.0, provides various advantages over AMF0, which is used for ActionScript 1.0 and 2.0. AMF3 sends data over the network more efficiently than AMF0. AMF3 supports sending int and uint objects as integers and supports data types that are available only in ActionScript 3.0, such as ByteArray, ArrayCollection, ObjectProxy and IExternalizable.</description>
+    <license>MIT</license>
+    <platform>all</platform>
+	  <website>https://pypi.org/project/Py3AMF/</website>
+	  <source>https://github.com/StdCarrot/Py3AMF</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="script.module.pytz" name="pytz" version="2019.3.0+matrix.2" provider-name="Stuart Bishop, Paul Backhouse">
