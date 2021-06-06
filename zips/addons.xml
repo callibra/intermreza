@@ -119,91 +119,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.super.favourites" name="Super Favourites" version="2.0.9" provider-name="jmooremcc, spoyser">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-  </requires>
-
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image executable</provides>
-  </extension>
-
-
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
-    <description lang="en_GB">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
-    <website />
-    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
-    <source>https://github.com/jmooremcc/plugin.program.super.favourites</source>
-    <email>seanpoyser at gmail.com</email>
-    <email>jmooremcc at hotmail.com</email>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-
-    <news>
-2.0.9: 15 May 2021
-      - Fixed bug in Player.def activateWindowCommand(cmd) that was messing up the ability
-        to return from child direrctories
-
-2.0.8: 14 May 2021
-      - Fixed various incompatibilities with latest version of Matrix involving decode('utf-8')
-        that caused crashes.
-
-2.0.7: 17 February 2021
-    - Fixed remote folder access via another plugin
-
-2.0.6: 11 January 2021
-      - Fixed access to local folders and smb folders
-
-2.0.5: 12 December 2020
-      - More Fixes for Network Folder Failure to Launch
-
-2.0.0: 29 November 2020
-      - Matrix Version
-
-1.0.60: 1 November 2020
-    - Fixed launch issues in Kodi Leia
-
-1.0.59: 29th May 2017
-    - 'Now playing' text now defined by SF due to skin variations
-    </news>
-
-  </extension>
-
-
-  <extension point="kodi.context.item">
-    <menu id="kodi.core.main">
-
-      <item library="capture.py">
-        <label>$ADDON[plugin.program.super.favourites 30002]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_addtofaves.py">
-        <label>$ADDON[plugin.program.super.favourites 30047]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_download.py">
-        <label>$ADDON[plugin.program.super.favourites 30259]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
-      </item>
-
-    </menu>
-  </extension>
-
-</addon>
-
 <addon id="plugin.video.com.pornky"
 version="0.9.8"
 name="pornky.com"
@@ -1381,6 +1296,56 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
+</addon>
+
+<addon id="script.pinsentry" name="PinSentry" version="100.6.0" provider-name="robwebset">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.python.script" library="default.py"/>
+	<extension point="xbmc.ui.screensaver" library="screensaver.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg">Защитава съдържанието на Kodi с PIN код</summary>
+		<summary lang="de">Kodi-Inhalt mit einem PIN-Code sichern</summary>
+		<summary lang="el">Προστασία περιεχομένου Kodi με κωδικό PIN</summary>
+		<summary lang="en">Protect Kodi Content With A Pin Code</summary>
+		<summary lang="fr">Protéger le contenu de Kodi avec un code PIN</summary>
+		<summary lang="fr_CA">Protéger le contenu de Kodi avec un NIP</summary>
+		<summary lang="he">להגן על תוכן Kodi באמצעות קוד PIN</summary>
+		<summary lang="it">Protegge i contenuti di Koki con un Codice Pin</summary>
+		<summary lang="lt">Apsaugoti Kodi turinį PIN kodu</summary>
+		<summary lang="nl">Bescherm Kodi inhoud met een PINcode</summary>
+		<summary lang="pl">Umożliwia zabezpieczenie zawartości Kodi przy pomocy kodu PIN.</summary>
+		<summary lang="pt_BR">Proteger o Conteúdo do Kodi com um Código Pin</summary>
+		<description lang="bg">Принуждава потребителите да въвеждат определен PIN код за да им бъде предоставен достъп до посочено съдържание.</description>
+		<description lang="de">Von Anwendern die Eingabe der korrekten PIN für den angegebenen Inhalt erzwingen.</description>
+		<description lang="en">Force users to enter the correct pin code for given content.</description>
+		<description lang="fr">Force les utilisateurs à saisir le bon code PIN pour un contenu donné.</description>
+		<description lang="fr_CA">Forcer les utilisateurs à saisir le bon NIP pour un contenu donné.</description>
+		<description lang="it">Costringe gli utenti a inserire il codice Pin corretto per accedere ai contenuti</description>
+		<description lang="lt">Reikalauti vartotojų įvesti teisingą PIN kodą pasirinktam turiniui.</description>
+		<description lang="nl">Forceer gebruikers een geldige PIN in te voeren voor gegeven content.</description>
+		<description lang="pl">Wymusza na użytkownikach wprowadzenie poprawnego kodu PIN, przez uzyskaniem dostępu do danej zawartości.</description>
+		<description lang="pt_BR">Força o usuário a entrar o código Pin correto para lhe dar acesso aos conteúdos.</description>
+		<language></language>
+		<platform>all</platform>
+		<license>See LICENSE.txt</license>
+		<forum>https://github.com/robwebset/script.pinsentry</forum>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<banner>resources/banner.jpg</banner>
+			<logo>resources/logo.png</logo>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2" provider-name="MikeBZH44, Martijn, `Black">
