@@ -1,102 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.acme.livenet"
-       name="   [COLORspringgreen]Live[/COLOR][COLORpalegreen]N[/COLOR][COLORlime]et[/COLOR]"
-       version="21.5.20"
-       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
-  <requires>
-    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
-    <import addon="script.module.pycryptodome" />
-    <import addon="script.module.dateutil" />
-    <import addon="script.module.pyamf" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLORspringgreen]ACME [COLORpalegreen]LiveNet[/COLOR]</summary>
-        <description>[COLORspringgreen]ACME [COLORpalegreen]LiveNet[/COLOR]</description>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
-<addon id="plugin.acme.tvnsports"
-       name="   [COLORspringgreen]Tv[/COLOR][COLORpalegreen]N[/COLOR][COLORlime]Sports[/COLOR]"
-       version="21.5.20"
-       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
-    <requires>
-        <import addon="script.module.beautifulsoup4" version="3.2.1"/>
-        <import addon="script.module.requests"  />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.dateutil"/>
-        <import addon="script.module.pytz"/>
-        <import addon="script.module.tzlocal"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLORspringgreen]ACME [/COLOR][COLORpalegreen]Tv [/COLOR][COLORlime]N [/COLOR][COLORspringgreen]Sports[/COLOR]</summary>
-        <description>[COLORspringgreen]ACME [/COLOR][COLORpalegreen]Tv [/COLOR][COLORlime]N [/COLOR][COLORspringgreen]Sports[/COLOR]</description>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-
-        <platform>all</platform>
-
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.acme.tvtap"
-       name="   [COLORspringgreen]Tv[/COLOR][COLORpalegreen]T[/COLOR][COLORlime]ap[/COLOR]"
-       version="21.5.20"
-       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
-  <requires>
-    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
-    <import addon="script.module.pycryptodome" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLORspringgreen]ACME [COLORpalegreen]TvTap[/COLOR]</summary>
-        <description>[COLORspringgreen]ACME [COLORpalegreen]TvTap[/COLOR]</description>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.program.InterMreza19" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR lime] 19[/COLOR][/B]" version="1.5" provider-name="[COLOR cyan]martin[/COLOR]">
     <requires>
        <import version="3.0.0" addon="xbmc.python"/>
@@ -472,78 +375,6 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
 	</extension>
 </addon>
 
-<addon id="repository.loonaticsasylum"
-       name="  [COLORspringgreen]L[COLORpalegreen]o[COLORlime]o[COLORred]N[COLORcrimson]a[COLORmediumpurple]t[COLORmediumorchid]i[COLORorangered]c[COLORorange]s [COLORdeepskyblue]Asylum[/COLOR] [COLORblue]Repo[/COLOR]"
-       version="21.5.12"
-       provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
-    <extension point="xbmc.addon.repository" name="Loonatics Asylum Repository">
-        <dir><!--LoonaticsAsylum-->
-            <info compressed="false">https://raw.githubusercontent.com/techecoyote/LooNaticsAsylum/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/techecoyote/LooNaticsAsylum/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/techecoyote/LooNaticsAsylum/master/zips/</datadir>
-        </dir>
-        <dir><!--TheLaboratory-->
-            <info compressed="false">https://raw.githubusercontent.com/techecoyote/The_Laboratory/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/techecoyote/The_Laboratory/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/techecoyote/The_Laboratory/master/zips/</datadir>
-        </dir>
-        <dir><!--MyAccounts-->
-            <info compressed="false">https://raw.githubusercontent.com/mr-kodi/repository.myaccounts/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/mr-kodi/repository.myaccounts/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/mr-kodi/repository.myaccounts/master/zips/</datadir>
-        </dir>
-        <dir><!--FenomScrapers-->
-            <info compressed="false">https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/mr-kodi/repository.fenomscrapers/master/zips/</datadir>
-        </dir>
-        <dir><!--SlyGuyTV-->
-            <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
-            <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
-        </dir>
-        <dir maxversion="18.9.0"><!--SlyGuyInputStreams-->
-            <info compressed="false">https://raw.githubusercontent.com/johnny5-is-alive/iat-repo/master/main/leia/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/johnny5-is-alive/iat-repo/master/main/leia/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/johnny5-is-alive/iat-repo/master/main/leia/</datadir>
-        </dir>
-        <dir><!--OpenScrapers-->
-            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-        </dir>
-        <dir><!--UniversalScrapers-->
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
-        <dir><!--ResolveUrl-->
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml</info>
-            <checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips/</datadir>
-        </dir>
-        <dir><!--EstuaryMods-->
-            <info compressed="false">https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Guilouz/repository.guilouz/raw/master/_repo</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>[COLORspringgreen]L[COLORpalegreen]o[COLORlime]o[COLORred]N[COLORcrimson]a[COLORmediumpurple]t[COLORmediumorchid]i[COLORorangered]c[COLORorange]s [COLORdeepskyblue]Asylum[/COLOR] [COLORblue]Repo[/COLOR]</summary>
-        <description>[COLORspringgreen]L[COLORpalegreen]o[COLORlime]o[COLORred]N[COLORcrimson]a[COLORmediumpurple]t[COLORmediumorchid]i[COLORorangered]c[COLORorange]s [COLORdeepskyblue]Asylum[/COLOR] [COLORblue]Repo[/COLOR]</description>
-        <platform>all</platform>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    </extension>
-</addon>
-
 <addon id="repository.skinbase.19" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 19" version="1.1.20" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
@@ -912,30 +743,6 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
   </extension>
 </addon>
 
-<addon	id="script.module.defusedxml"
-		name="defusedxml"
-		version="0.6.0+matrix.1"
-		provider-name="Christian Heimes">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension
-		point="xbmc.python.module"
-		library="lib" />
-	<extension
-		point="xbmc.addon.metadata">
-		<summary lang="en_GB">defusedxml -- defusing XML bombs and other exploits</summary>
-		<description lang="en_GB">Packed for KODI from https://github.com/tiran/defusedxml</description>
-		<platform>all</platform>
-		<license>PSF</license>
-		<website>https://pypi.org/project/defusedxml/</website>
-		<source>https://github.com/tiran/defusedxml</source>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.module.future"
        name="future"
        version="0.18.2+matrix.1"
@@ -1026,30 +833,6 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
     </extension>
 </addon>
 
-<addon id="script.module.pyamf"
-       name="PyAMF"
-       version="0.8.10+matrix.3"
-       provider-name="The Py3AMF Project">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.defusedxml" version="0.6.0+matrix.1"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">PyAMF provides Action Message Format (AMF) support for Python that is compatible with the Adobe Flash Player.</summary>
-    <description lang="en_GB">The Adobe Integrated Runtime and Adobe Flash Player use AMF to communicate between an application and a remote server. AMF encodes remote procedure calls (RPC) into a compact binary representation that can be transferred over HTTP/HTTPS or the RTMP/RTMPS protocol. Objects and data values are serialized into this binary format, which increases performance, allowing applications to load data up to 10 times faster than with text-based formats such as XML or SOAP.
-AMF3, the default serialization for ActionScript 3.0, provides various advantages over AMF0, which is used for ActionScript 1.0 and 2.0. AMF3 sends data over the network more efficiently than AMF0. AMF3 supports sending int and uint objects as integers and supports data types that are available only in ActionScript 3.0, such as ByteArray, ArrayCollection, ObjectProxy and IExternalizable.</description>
-    <license>MIT</license>
-    <platform>all</platform>
-	  <website>https://pypi.org/project/Py3AMF/</website>
-	  <source>https://github.com/StdCarrot/Py3AMF</source>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="script.module.pytz" name="pytz" version="2019.3.0+matrix.2" provider-name="Stuart Bishop, Paul Backhouse">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -1131,24 +914,6 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
         <platform>all</platform>
         <language>en_GB</language>
         <source>https://github.com/tamland/kodi-plugin-routing</source>
-        <assets>
-            <icon>resources/icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="script.module.simplecache" name="Simple Cache Module" version="2.0.2" provider-name="sualfred">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</summary>
-        <description lang="en_GB">Provides a simple file- and memory based cache for Kodi addons. Based on the original work of Marcelveldt.</description>
-        <platform>all</platform>
-        <license>Apache 2.0</license>
-        <forum/>
-        <source>https://github.com/sualfred/script.module.simplecache</source>
         <assets>
             <icon>resources/icon.png</icon>
         </assets>
