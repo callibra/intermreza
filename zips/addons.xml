@@ -51,6 +51,42 @@ provider-name="fr33p0rt (fr33p0rt@protonmail.com)">
 </extension>
 </addon>
 
+<addon id="plugin.video.thecrew" version="1.1.4" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+        <import addon="script.module.thecrew" />
+        <import addon="script.thecrew.artwork" />
+        <import addon="script.thecrew.metadata" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    </requires>
+    <extension library="thecrew.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/art/ss/1.png</screenshot>
+            <screenshot>resources/art/ss/2.png</screenshot>
+            <screenshot>resources/art/ss/3.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.00.27">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
@@ -454,6 +490,60 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 	</extension>
 </addon>
 
+<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.4">
+	<extension point="xbmc.addon.repository" name="The Crew" >
+			<dir minversion="16.0.0" maxversion="18.9.9">
+			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip</datadir>
+			</dir>
+			<dir minversion="18.9.9">
+			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/matrix/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/</datadir>
+			</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+		<description lang="en">Many come, Many go. The true and dedicated are here. We here</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/art/ss/1.png</screenshot>
+			<screenshot>resources/art/ss/2.png</screenshot>
+			<screenshot>resources/art/ss/3.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="resource.images.recordlabels.white" name="Recordlabel Icons - White" version="0.0.7" provider-name="Team Kodi">
 	<extension point="kodi.resource.images" compile="true" type="recordlabels" />
 	<requires>
@@ -782,6 +872,62 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
   </extension>
 </addon>
 
+<addon id="script.module.inputstreamhelper" name="InputStream Helper" version="0.5.4+matrix.1" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
+  <requires>
+    <!--py3 compliant-->
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.pysocks" version="1.6.8" optional="true"/>
+  </requires>
+  <!-- This is needed to get an add-on icon -->
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Kodi InputStream and DRM playback made easy</summary>
+    <summary lang="de_DE">Kodi InputStream und DRM Wiedergabe einfach gemacht</summary>
+    <summary lang="el_GR">Βοηθός Inputstream για το Kodi και εύκολη αναπαραγωγή DRM</summary>
+    <summary lang="fr_FR">La lecture Kodi InputStream et DRM en toute simplicité</summary>
+    <summary lang="es_ES">Kodi InputStream y reproducción DRM echa fácil</summary>
+    <description lang="en_GB">A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.</description>
+    <description lang="de_DE">Dieses einfache Kodi-Modul macht das Leben für Addon Entwickler einfacher, die auf InputStream basierte Addons und DRM Wiedergabe angewiesen sind.</description>
+    <description lang="el_GR">Μία απλή μονάδα για το Kodi η οποία διευκολύνει την ζωή των προγραμματιστών οι οποίοι εξαρτώνται από τα πρόσθετσ InputStream και αναπαραγωγή τύπου DRM.</description>
+    <description lang="ru_RU">Простой модуль для Kodi, который облегчает жизнь разработчикам дополнений, с использованием InputStream дополнений и воспроизведения DRM контента.</description>
+    <description lang="fr_FR">Un simple module Kodi qui simplifie la vie des développeurs de modules complémentaires en s’appuyant sur des modules complémentaires basés sur InputStream et sur la lecture de DRM.</description>
+    <description lang="es_ES">Un módulo Kodi simple que hace la vida más fácil para los desarrolladores de complementos que dependen de complementos basados en InputStream y reproducción de DRM.</description>
+    <news>
+v0.5.4 (2021-05-27)
+- Fix Widevine CDM installation on ARM hardware
+
+v0.5.3 (2021-05-10)
+- Temporary fix for Widevine CDM installation on ARM hardware
+- Fix Widevine CDM installation on 32-bit Linux
+
+v0.5.2 (2020-12-13)
+- Update Chrome OS ARM hardware id's
+
+v0.5.1 (2020-10-02)
+- Fix incorrect ARM HWIDs: PHASER and PHASER360
+- Added Hebrew translations
+- Updated Dutch, Japanese and Korean translations
+
+v0.5.0 (2020-06-25)
+- Extract Widevine CDM directly from Chrome OS, minimizing disk space usage and eliminating the need for root access
+- Improve progress dialog while extracting Widevine CDM on ARM devices
+- Support resuming interrupted downloads on unreliable internet connections
+- Reshape InputStream Helper information dialog
+- Updated Dutch, English, French, German, Greek, Hungarian, Romanian, Russian, Spanish and Swedish translations
+    </news>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki</website>
+    <source>https://github.com/emilsvennesson/script.module.inputstreamhelper</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.kodi-six"
        name="Kodi Six"
        version="0.1.3.1"
@@ -1001,6 +1147,25 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 	</extension>
 </addon>
 
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="1.1.4" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+        <import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="script.module.tzlocal"
        name="tzlocal"
        version="2.0.1"
@@ -1147,6 +1312,42 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 		</assets>
 		<news>Kodi v19 Matrix + Python 3 compatibility</news>
 	</extension>
+</addon>
+
+<addon id="script.thecrew.artwork" version="1.0.0" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.thecrew.metadata" version="1.0.0" name="[COLOR orchid]THE CREW METADATA[/COLOR]" provider-name="The Crew">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.25.0" />-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="script.theoath.artwork" version="1.0.8" name="TheOath Artwork" provider-name="host505">
