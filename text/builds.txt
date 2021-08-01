@@ -50,7 +50,7 @@ theme="http://"
 icon="https://raw.githubusercontent.com/callibra/intermreza/main/builds/im-adults.png"
 fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/adults.jpg"
 preview="http://"
-adult="no"
+adult="yes"
 info="http://"
 description="InterMreza - ADULTS 18+ Sodrzina v1.8."
 
