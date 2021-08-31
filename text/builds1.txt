@@ -1,4 +1,4 @@
-name="[COLOR yellow][B]---INTERMREZA BUILDS LEIA 18---[/COLOR]"
+name="[COLOR yellow][B]---INTERMREZA BUILDS LEIA 18---[/COLOR][/B]"
 version="1.0"
 url="http://"
 gui="http://"
