@@ -454,10 +454,12 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 
 <addon id="skin.aeon.nox.silvo.im18" version="1.8" name="[COLOR white][B]Aeon-Nox-SiLVO[COLOR yellow] I[COLOR red]M[COLOR dodgerblue] 18[/COLOR][/B]" provider-name="[COLOR cyan]martin[/COLOR]">
 	<requires>
-		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="script.skinshortcuts" version="1.0.10" />
 		<import addon="service.library.data.provider" version="0.0.7" />
 		<import addon="script.grab.fanart" version="0.12.8" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
