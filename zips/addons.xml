@@ -232,26 +232,6 @@
 
 				<!--// Balkan Green Repository \\-->
 
- <addon id="repository.InterMreza18" name="[COLOR yellow][B]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR][/B]" version="1.8" provider-name="[COLOR cyan]martin[/COLOR]">
-	<extension point="xbmc.addon.repository" name="[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR]">
-		<info compressed="false">https://raw.githubusercontent.com/callibra/intermreza/main/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/callibra/intermreza/main/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/callibra/intermreza/main/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Repository[/COLOR]</summary>
-        <description lang="en">[COLOR yellow][B]Inter[COLOR red]Mreza [COLOR white]Repository[COLOR cyan] Aplikacija, Addoni, Temi, Wizardi, Portali [COLOR yellow]By Callibra Team[COLOR red] UNITED MACEDONIA.[/COLOR][/B]</description>
-			<platform>all</platform>
-			<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            </assets>
-	</extension>
-</addon>
-
-
-				<!--// Balkan Green Repository \\-->
-
 <addon
   id="repository.kodibalkan"
   name="[COLOR=lime]Balkan Green[/COLOR] [COLOR=white]Repository[/COLOR]"
