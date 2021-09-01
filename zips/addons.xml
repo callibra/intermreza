@@ -5,11 +5,11 @@
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR dodgerblue] 18[/COLOR]</summary>
+   <summary lang="en">[COLOR yellow]Inter[COLOR red]Mreza[COLOR white] Wizard[COLOR dodgerblue] 18[/COLOR]</summary>
         <description lang="en">[COLOR yellow][B]Inter[COLOR red]Mreza [COLOR white]Wizard [COLOR cyan]Instaliranje na Aplikacija, Addoni, Skins, Apk, Iptv za [COLOR red]KODI[COLOR dodgerblue] 18 Leia.[/COLOR][/B]</description>
         <platform>all</platform>
         <assets>
