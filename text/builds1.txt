@@ -1,14 +1,4 @@
-name="[COLOR lime][B]---INTERMREZA BUILDS LEIA 18---[/COLOR][/B]"
-version="1.0"
-url="http://"
-gui="http://"
-kodi=""
-theme="http://"
-icon="https://raw.githubusercontent.com/callibra/intermreza/main/img/builds.png"
-fanart="https://raw.githubusercontent.com/callibra/intermreza/main/img/iptv.jpg"
-preview="http://"
-adult="no"
-description="INTERMREZA BUILDS ZA KODI LEIA 18."
+
 
 name="InterMreza - POWER"
 version="1.1"
