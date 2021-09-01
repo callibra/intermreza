@@ -1,10 +1,8 @@
-
-
 name="InterMreza - POWER"
 version="1.1"
 url="https://gitlab.com/callibra/intermreza/-/raw/master/BuildsPOWER/im-power.zip"
 gui="http://"
-kodi="18"
+kodi="18.9"
 theme="http://"
 icon="https://raw.githubusercontent.com/callibra/intermreza/main/builds/im-power.png"
 fanart="https://raw.githubusercontent.com/callibra/intermreza/main/builds/power.jpg"
