@@ -27,7 +27,7 @@ info="http://"
 description="InterMreza - IPTV Osnovna verzija so IPTV Portal v1.2."
 
 name="InterMreza - IPTV Plus"
-version="1.9"
+version="1.8"
 url="https://gitlab.com/callibra/intermreza/-/raw/master/BuildsIPTV/im-plus.zip"
 minor="http://"
 gui="http://"
